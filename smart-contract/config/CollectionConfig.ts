@@ -9,11 +9,11 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'PiCoreNFT',
-  tokenName: 'Pi Core NFT',
-  tokenSymbol: 'PiNFT',
-  hiddenMetadataUri: 'https://3dnft.s3.filebase.com/PunkJson/1.json',
-  maxSupply: 9999,
+  contractName: 'PiDAOClub1',
+  tokenName: 'Pi DAO Club',
+  tokenSymbol: 'Pi NFT',
+  hiddenMetadataUri: 'ipfs://Qme4cZU1QZsLgvqhZhyoB19Z7zJydBKrTp9tNSGatf3Lwc/1.json',
+  maxSupply: 8888,
   whitelistSale: {
     price: 0.1,
     maxMintAmountPerTx: 1,
@@ -23,11 +23,11 @@ const CollectionConfig: CollectionConfigInterface = {
     maxMintAmountPerTx: 2,
   },
   publicSale: {
-    price: 0.2,
-    maxMintAmountPerTx: 500,
+    price: 0.5,
+    maxMintAmountPerTx: 1000,
   },
-  contractAddress: '0xdE470d86e69e8Ef5715B12c860f7f49863a7c4A7',
-  marketplaceIdentifier: 'my-nft-token',
+  contractAddress:'0xd14dBa13A56Ba0bB454BF256E7207f8e0B2376E6',
+  marketplaceIdentifier:'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
